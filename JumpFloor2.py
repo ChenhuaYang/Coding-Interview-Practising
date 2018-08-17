@@ -8,8 +8,8 @@ class Solution:
         # write code here
         if number == 0:
             return 1
-        f0 = 1
-        f1 = 1
-        while True:
-            f0,f1=f1,f0+f1
+        if number == 1:
+            return 1
+
+        return 2**(number-1)
 
