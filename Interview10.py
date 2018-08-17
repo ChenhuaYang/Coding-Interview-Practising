@@ -12,4 +12,3 @@ sl=Solution()
 print(sl.NumberOf1(4))
 
 
-print(bin(4>>4))
