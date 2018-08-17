@@ -9,7 +9,7 @@ class Solution:
             return 1
         if number == 1:
             return 1
-        return 2**(number-2)*(f1+f0)
+        return 2**(number-1)
 
 sl=Solution()
 print(sl.jumpFloor(4))
