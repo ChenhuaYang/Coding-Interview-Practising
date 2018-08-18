@@ -6,6 +6,7 @@
 半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
 """
 """Method 1 ocupy too much space"""
+
 class Solution:
     def reOrderArray(self, array):
         # write code here
